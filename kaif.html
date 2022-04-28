@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box;}
+
+body { 
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  overflow: hidden;
+  background-color: transparent;
+  padding: 5px 10px;
+}
+
+.header a {
+  float: left;
+  color: black;
+  text-align: right;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 12px; 
+  line-height: 10px;font-weight: bold;
+  border-radius: 4px;
+
+}
+
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.header a:hover {
+  background-color: rgb(255, 255, 255);
+  color: black;
+
+  
+}
+
+.header a.active {
+  background-color: rgb(253, 253, 253);
+  color: rgb(8, 8, 8);
+  
+}
+
+.header-right {
+  float: right; 
+}
+
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: center;
+    
+  }
+  
+  .header-right {
+    float: none;
+  }
+  
+
+
+ 
+
+}
+img
+{
+float:right;
+
+}
+.elistcontent > h4{
+color:#09143C;
+word-spacing:5px;
+font-size:35px;
+text-align:center;
+font-family:AkzidenzGrotesk;
+letter-spacing:.05em;
+}
+.elistcontent > p{
+color:#09143C;
+word-spacing:5px;
+font-size:25px;
+text-align:center;
+font-family:AkzidenzGrotesk;
+letter-spacing:.05em;
+}
+.elistcontent {
+color:#09143C;
+word-spacing:5px;
+font-size:25px;
+text-align:center;
+font-family:AkzidenzGrotesk;
+letter-spacing:.05em;
+
+}
+
+button
+{
+margin:0;
+background-color:#09143C;
+color:#FFFFFF;
+font-family:AkzidenzGrotesk;
+letter-spacing:.05em;
+border-radius:4px;
+cursor:pointer;
+width:100px;
+}
+button:hover {
+background-color:#000000;
+}
+.rewards > h1{
+color:#09143C;
+font-size:55px;
+text-align:center;
+font-family:AkzidenzGrotesk;
+}
+.rewards > p {
+color:#09143C;
+font-size:15px;
+text-align:center;
+font-family:AkzidenzGrotesk;
+
+}
+.rewards > h6{
+color:#09143C;
+margin:0;
+font-size:15px;
+text-align:center;
+font-family:AkzidenzGrotesk;
+text-decoration:underline;
+}
+.rewardslist1 > p{
+color:#09143C;
+background-color:#FFFFFF;
+opacity:0.2;
+text-align:center;
+padding:0 30px 0 400px;
+float:left;
+font-size:30px;
+font-family:AkzidenzGrotesk;
+}
+.rewardslist1 > ul{
+color:#09143C;
+background-color:#FFFFFF;
+opacity:0.2;
+padding:0 300px 0 20px;
+font-size:20px;
+font-family:AkzidenzGrotesk;
+}
+
+.rewardslist2 > p{
+color:#09143C;
+background-color:#FFFFFF;
+opacity:0.2;
+text-align:center;
+padding:0 30px 0 350px;
+float:left;
+font-size:30px;
+font-family:AkzidenzGrotesk;
+}
+.rewardslist2 > ul{
+color:#09143C;
+background-color:#FFFFFF;
+opacity:0.2;
+padding:0 300px 0 20px;
+font-size:20px;
+font-family:AkzidenzGrotesk;
+}
+.rewardslist3 > p{
+color:#09143C;
+background-color:#FFFFFF;
+opacity:0.2;
+text-align:center;
+padding:0px 30px 0px 410px;
+float:left;
+font-size:30px;
+font-family:AkzidenzGrotesk;
+}
+.rewardslist3 > ul{
+
+color:#09143C;
+background-color:#FFFFFF;
+opacity:0.2;
+padding:20px 300px 0 20px;
+font-size:20px;
+font-family:AkzidenzGrotesk;
+}
+.rewardslist1 :hover {
+background-color:#FFFAFA;
+opacity:1;
+}
+.rewardslist2 :hover {
+background-color:#FFFAFA;
+opacity:1;
+}
+.rewardslist3 :hover {
+background-color:#FFFAFA;
+opacity:1;
+}
+.earningpoints {
+text-align:center;
+width:50%;
+background-color:#09143C;
+padding:30px 40px 30px 40px;
+color:#FFFFFF;
+border:0 20px 0 20px;
+
+font-size:15px;
+font-family:AkzidenzGrotesk;
+margin:30px 270px;
+}
+body {
+font-family:AkzidenzGrotesk;
+}
+.row {
+display:flex;
+flex-wrap:wrap;
+}
+ul {
+list-style-type:none;
+font-size:18px;
+color:#4169e1;
+padding:10px 0;
+}
+.footer {
+background-color:#09143C;
+padding:50px 0;
+}
+.footer-col {
+width:25%;
+}
+.footer-col h4 {
+
+font-size:20px;
+color:#FFFFFF;
+}
+
+
+
+
+
+
+</style>
+</head>
+<body>
+
+<div class="header">
+  <a href="#" class="logo">ESTEE LAUDER</a>
+  <div class="header-right">
+    <a href="#">SKINCARE</a>
+    <a href="#">MAKEUP</a>   
+    <a href="#">FRAGRANCE</a>
+    <a href="#">RE-NUTRIV </a>  
+    <a href="#">AERIN</a>
+    <a href="#">BESTSELLERS</a>  
+    <a href="#">GIFT</a>
+    <a href="#">ESTEE EDIT</a>  
+    
+  </div>
+</div>
+
+
+
+<div class="img1">
+    <img src="https://m.esteelauder.nl/media/export/cms_2.0/loyalty/mobile/loyalty_marketing_elist_header.jpg" 
+    width="50%" height="400" >
+    
+</div>
+
+<div class="elistcontent">
+    <h4><b>Your front row seat <br>to the best in beauty.</b></h4>
+    
+    <p>Hollywood may have its A-list,but<br> when it comes to beauty.<br> there's only one
+    list you want<br> to be on:the estee e-list.</p>
+    <p>Receive instant access to e-xclusives and<br> e-rresistables. And this is only the
+    beginning.<br> Accumulate points,unblock rewards and enjoy<br> more e-mazing treats and
+    experiences.</p>
+    <h5>SIGN UP NOW TO RECEIVE 15% OFF <br> YOUR FIRST PURCHASE AS A
+    LOYALTY MEMBER </h5>
+    <form action="Ass.html">
+    <button type="submit">JOIN NOW</button>
+    <button type="submit">SIGN IN</button></form>
+    </div>
+
+    <div class="rewards">
+        <h1>You'll Love It</h1>
+        <p>AS AN ESTEE E-LISTER, YOUR REWARDS ARE CURATED ESPECIALLY <br>
+        FOR YOU BY THE ESTEE EXPERTS</p>
+        <h6>JOIN NOW-IT'S FREE:<h6>
+        </div>
+        <div class="rewardslist">
+        <div class="rewardslist1">
+        <p>be excited + <br> 0 Points </p>
+        <ul>
+        <li>Birthday Gifts</li>
+        <li>15% Off An Online Order</li>
+        <li>Free Samples with Every Purchase</li>
+        <li>Free Standard Shipping and Free Returns</li>
+        <li>Early Access to Events and Products</li>
+        </ul>
+        </div>
+        <div class="rewardslist2">
+        <p>be enthusiastic + <br> 250 Points </p>
+        <ul>
+        <li>Product Previews</li>
+        <li>Online Events</li>
+        
+        <li>In-Store Member Events</li>
+        <li>20% Off An Online Order(at 250 points)</li>
+        <li>Free Full-Size Product(at 450 points)</li>
+        </ul>
+        </div>
+        <div class="rewardslist3">
+        <p>be envied + <br> 650 Points </p>
+        <ul>
+        <li>Free 2-Day Shipping on All Orders</li>
+        <li>Your Personal Beauty Advisor</li>
+        <li>VIP Member Events</li>
+        <li>Free Full-Size Product(at 650 points</li>
+        </ul>
+        </div>
+        </div>
+        <div class="earningpoints">
+        <h1>Earning Points</h1>
+        <p>EARN <span style="font-weight:bold">1 POINT FOR EVERY S1 SPENT </span>
+        ONLINE AND IN STORE<br>
+        <span style="font-weight:bold">PLUS</span> Surprise and Bonus Points for Writing
+        Product Reviews.<br>
+        Points for Enrolling in Auto Replenishment. Double Points Events and more!<br>
+        <p>Still have questions?<span style="text-decoration:underline">Learn More</span> </p>
+        </div>
+        <hr>
+        <footer class="footer">
+        <div class="container">
+        <div class="row">
+        <div class="footer-col">
+        <h4>About Estee Lauder</h4>
+        <ul>
+        
+        <li>Estee Lauder,Our Founder</li>
+        <li>Careers</li>
+        <li>Corporate Info</li>
+        </ul>
+        </div>
+        <div class="footer-col">
+        <h4>Need Help?</h4>
+        <ul>
+        <li>Beauty Chat</li>
+        <li>Order/Technical Inquiry Chat</li>
+        <li>Email Us</li>
+        <li>1.877.311.3883</li>
+        </ul>
+        </div>
+        <div class="footer-col">
+        <h4>Customer Care</h4>
+        <ul>
+        <li>Returns and Exchanges</li>
+        <li>Where is My Order?</li>
+        <li>FAQs</li>
+        <li>Shipping Information</li>
+        <li>More</li>
+        <li>eGift Card</li>
+        </ul>
+        </div>
+        <div class="footer-col">
+        <h4>Find Us</h4>
+        <ul>
+        <li>Store Locator</li>
+        <div class="social-links">
+        
+        <li>
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+        </li>
+        </ul>
+        </div>
+        </div>
+        </div>
+        </footer>
+
+</body>
+</html>
